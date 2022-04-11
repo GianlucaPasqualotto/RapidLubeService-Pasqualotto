@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" keywords="lubricentro">
+    <link rel="shortcut icon" href="../assets/logo/rapidLubeService-logoAzul.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Rapid Lube Service</title>
+</head>
+<body>
+    <div class="grid-layout"> 
+        <div class="caja c1"> 
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="productos-servicios.html">Productos / Servicios</a></li>
+                    <li><a href="precios.html">Precios</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+        </nav>
+    </div>
+        <div class="caja c2"> <img class="logo" src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service" width="100%"/> </div>
+        <img class="caja c3 " src="../assets/img/distribucionAuto.jpg" alt="Logo Rapid Lube Service" width="500px"/>
+        <h1 class="caja c4">Trabajamos con las mejores marcas para el cuidado de tu vehículo</h1>
+        <div class="caja c5"> 
+            <h2 >Formulario</h2>
+            <form class="form" action="procesar.php" method="post">
+                <fieldset>
+                    <legend>Pedido de Presupuesto</legend>
+                        <p>
+                            <label for="Nombre Apellido">Nombre y Apellido:</label>
+                            <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido">
+                        </p>
+                            <label for="Correo Electrónico">Correo Electrónico:</label>
+                            <input type="text" name="Correo eletrónico" placeholder="Correo electrónico">
+                        <p>
+                            <label for="Número de Celular">Número de Celular:</label>
+                            <input type="tel" name="Número de celular" placeholder="Número de celular">    
+                        </p>    
+                        <p>
+                            <h4>¿Qué servicio desea realizar?</h4>
+                            <label for="¿Qué servicio desea realizar?">Service Completo</label>
+                            <input type="checkbox" name="coleccion" value="Service Completo">
+                            <label for="¿Qué servicio desea realizar?">Frenos</label>
+                            <input type="checkbox" name="¿Qué servicio desea realizar?" value="Frenos">
+                            <label for="¿Qué servicio desea realizar?">Suspension</label>
+                            <input type="checkbox" name="¿Qué servicio desea realizar?" value="Suspensión">
+                            <label for="¿Qué servicio desea realizar?">Cambio de Aceite y Filtros</label>
+                            <input type="checkbox" name="¿Qué servicio desea realizar?" value="Cambio de Aceite y Filtros">
+                            <label for="¿Qué servicio desea realizar?">Distribución</label>
+                            <input type="checkbox" name="¿Qué servicio desea realizar?" value="Distribución">
+                            <label for="¿Qué servicio desea realizar?">Otro</label>
+                            <input type="checkbox" name="¿Qué servicio desea realizar?" value="Otro">
+                        </p>
+                        <p>
+                            <h4>Seleccione la marca de su auto</h4>
+                            <label for="Marca Auto">Chevrolet</label>
+                            <input type="radio" name="Marca Auto" value="Chevrolet">
+                            <label for="Marca Auto">Fiat</label>
+                            <input type="radio" name="Marca Auto" value="Fiat">
+                            <label for="Marca Auto">Ford</label>
+                            <input type="radio" name="Marca Auto" value="Ford">
+                            <label for="Marca Auto">Honda</label>
+                            <input type="radio" name="Marca Auto" value="Honda">
+                            <label for="Marca Auto">Volkswagen</label>
+                            <input type="radio" name="Marca Auto" value="Volkswagen">
+                            <label for="Marca Auto">Renault</label>
+                            <input type="radio" name="Marca Auto" value="Renault">
+                            <label for="Marca Auto">Nissan</label>
+                            <input type="radio" name="Marca Auto" value="Nissan">
+                            <label for="Marca Auto">Subaru</label>
+                            <input type="radio" name="Marca Auto" value="Subaru">
+                        </p>
+                            <h4>Seleccione el tipo de combustible</h4>
+                            <select name="tecnica" id="">
+                                <option value="Nafta">Nafta</option>
+                                <option value="Diesel">Diesel</option>
+                                <option value="Nafta y GNC">Nafta y GNC</option>
+                            </select>
+                        <p>
+                            <h4>Agregar comentarios</h4>
+                            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                        </p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar campos">
+                        <input type="button" value="Sin acciones">
+                    </fieldset>
+            </form>
+        </div>  
+        <footer class="footer">
+            <p>Copyright &copy; RapidLubeService. Todos los derechos reservados 2022</p>
+        </footer> 
+    </div>
+</body>
+</html>   
+   
+   
+   
+    <!-- <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos-servicios.html">Productos / Servicios</a></li>
+                <li><a href="precios.html">Precios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service" width="100%"/>
+    <img class="distribucion" src="../assets/img/distribucionAuto.jpg" alt="Logo Rapid Lube Service" width="500px"/>
+    <footer class="footer">
+        <p>Copyright &copy; RapidLubeService. Todos los derechos reservados 2022</p>
+    </footer> -->
