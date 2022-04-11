@@ -7,11 +7,11 @@
 html {
     min-height: 100%;
     position: relative;
-  }
-  body {
+}
+body {
     margin: 0;
     margin-bottom: 40px;
-  }
+}
 /*Index*/
 
 /* .footer {
@@ -52,13 +52,14 @@ html {
 } */
 
 /* Index Responsive */
-@media  and (max-width: 600px) {
+/*@media  and (max-width: 600px) {
     .caja {
         position:relative;
     }
-}
+}*/
 .grid-layout {
     display: grid;
+    background-image: linear-gradient(#3e4095,#fcb32f);
     grid-template-columns: auto auto auto;
     grid-template-rows: 5% 25% 15% 15% 3% ;
     grid-template-areas:
@@ -156,9 +157,20 @@ h5 {
 }
 
 
-
-
-
+h1 {
+    font-size: 25px;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count:unset;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
 
