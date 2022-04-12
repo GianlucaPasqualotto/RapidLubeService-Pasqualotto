@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/logo/rapidLubeService-logoAzul.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="/librerias/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/prueba.css">
     <title>Rapid Lube Service - Blog</title>
 </head>
 <body>
@@ -22,14 +23,70 @@
         </nav>
     </header>
     <img src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service" width="100%"/><br><br>
-    <div class="flex-container">
-        <div class="video.tutorial">Cambio de Lámparas</div>
-        <iframe src="https://www.youtube.com/embed/G6PsGYYpKn0?controls=0" title="YouTube video player" height="300px" width="300px"></iframe>
-        <div class="video.tutorial">Cambio de Lámparas en Peugeot</div>
-        <iframe src="https://www.youtube.com/embed/RSpJQWccufY?controls=0" height="300px" width="300px"></iframe></iframe>
-    </div>
+    <section id="cards">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+            <div class="card">
+                <img src="/assets/img/distribucion-auto.jpg" class="card-img-top" alt="correa de distribución">
+                <div class="card-body">
+                <h5 class="card-title">Correa de Distribución</h5>
+                <p class="card-text">Es La encargada de convertir la potencia del motor en el movimiento del auto. La correa o cadena de distribución, Al ser tan importante, es recomendable revisarla con periodicidad. Suele incluirse en el servicio general al motor. Conviene cambiarla cada 90,000 kms.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="/assets/img/freno-auto.jpg" class="card-img-top" alt="disco y pastilla de freno">
+                <div class="card-body">
+                <h5 class="card-title">Frenos</h5>
+                <p class="card-text">5 consejos que te ayudarán a mantener en buen estado los frenos de tu auto.<br>
+                    1) Practica una conduccion eficiente (no abuses del uso del freno) <br>
+                    2)  presta atención a Señales acusticas y vibratorias (Chirridos y ruidos constantes denotan un excesivo desgaste de las pastillas) <br>
+                    3) reemplazar sus componentes (es recomendable sustituir las pastillas de freno cada 25.000 km) <br>
+                    4)  comprueba el liquido de frenos <br>
+                    5)  Usa recambios homologados</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="/assets/img/rto-auto.png" class="card-img-top" alt="revisión técnica obligatoria">
+                <div class="card-body">
+                <h5 class="card-title">¿Qué se verifica en la RTO?</h5>
+                <p class="card-text">Los controles que se realizan sobre los vehículos en la Revisión Técnica son los siguientes: <br>
+                    • Sistema de frenado <br>
+                    • Sistema de dirección <br>
+                    • Sistema de suspensión <br>
+                    • Sistema de transmisión <br>
+                    • Sistema de rodamiento <br>
+                    • Sistema de iluminación <br>
+                    • Nivel de intensidad sonora, silenciador y sistema de escape <br>
+                    • Emisión de contaminantes, gases de escape, pérdidas de fluidos <br>
+                    • Estado general de vehículo y carrocería, elementos salientes o cortantes, deterioros, guardabarros, paragolpes, defensas reglamentarias, altura, puertas, capot y baúl <br>
+                    • Parabrisas, luneta y cristales laterales <br>
+                    • Limpiaparabrisas <br>
+                    • Espejos retrovisores <br> 
+                    • Dispositivos del sistema de instrumental y registro de operaciones <br>
+                    • Accesorios de seguridad y elementos para emergencia tales como cinturones de seguridad, apoya cabezass, extintores o matafuegos, balizas triángulo reflactante, chaleco refractario y botiquín de primeros auxilios</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="/assets/img/filtro-aire-auto.jpg" class="card-img-top" alt="Filtro de aire auto">
+                <div class="card-body">
+                <h5 class="card-title">Filtro de Aire</h5>
+                <p class="card-text">Filtros: <br>
+                    Los filtros se encargan de retener las impurezas para que no pasen al motor ni contaminen la cámara de combustión y los cilindros. <br>
+                    El Filtro de Aire particularmente retiene las partículas abrasivas existentes en el aire aspirado del ambiente impidiendo así que se desgaste prematuramente el motor, principalmente anillos y cilindros.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <p>Copyright &copy; RapidLubeService. Todos los derechos reservados 2022</p>
     </footer>
+    <script src="../librerias/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

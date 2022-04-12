@@ -5,6 +5,20 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.footer {
+    position:absolute;
+    background-color: #3e4095;
+    width: 100%;
+    height: 50px;
+    color: white;
+    bottom: auto;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 15px;
+}
+
 h1 {
     font-size: 25px;
     animation-duration: 5s;
@@ -33,7 +47,7 @@ nav ul {
 .container {
     max-width: 1400px;
     margin: 0;
-    padding: 0;
+    padding: 0;;
 }
 
 header {
@@ -75,4 +89,52 @@ header .navbar ul li a {
 #logo {
     display: grid;
     grid-area: logo;
+}
+
+#distribucion {
+    display: grid;
+    grid-area: distribucion;
+}
+
+thead {
+    background-color:#3e4095;
+    color: #fcb32f
+}
+
+#cards {
+    margin:auto;
+    padding: 10px 100px 100px 100px;
+}
+
+#table {
+    margin: auto;
+    padding: 10px 100px 100px 100px;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 50px 50px;
+}
+
+#slider {
+    margin: 0;
+    padding: 50px 50px;
+}
+
+.container-prueba {
+    margin: auto;
+    padding-left: auto;
+}
+
+#marcas {;
+    text-align: center;
+}
+
+
+#form {
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 100px;
 }

@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/logo/rapidLubeService-logoAzul.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="/librerias/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/prueba.css">
     <title>Rapid Lube Service - Precios</title>
 </head>
 <body>
@@ -22,8 +23,51 @@
         </nav>
     </header>
     <img src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service" width="100%"/><br><br>
-    <section>
-        <table>
+    <section id="table">
+        <div class="table-responsive">
+            <table class="table align-middle">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Producto</th>
+                <th scope="col">Marca</th>
+                <th scope="col">Auto</th>
+                <th scope="col">Precio</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Aceite</td>
+                <td>Castrol</td>
+                <td>Chevrolet</td>
+                <td>$5900</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Lampara H7</td>
+                <td colspan="2">Philips</td>
+                <td>$850</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Batería</td>
+                <td colspan="2">Herbo</td>
+                <td>$8500</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Filtro</td>
+                <td>Combustible</td>
+                <td>Ford</td>
+                <td>$1590</td>
+            </tr>
+            </tbody>
+        </table>
+        </table>
+        </div>
+        <!--<table>
             <thead>
             <tr>
                 <th>Producto</th>
@@ -56,10 +100,11 @@
                 <td>Todos</td>
                 <td>$2300</td>
             </tr>
-        </table><br><br>
-    </section>
+        </table><br><br>-->
+    </section> <br> <br> <br> <br> <br>
     <footer class="footer">
         <p>Copyright &copy; RapidLubeService. Todos los derechos reservados 2022</p>
     </footer>
+    <script src="../librerias/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
