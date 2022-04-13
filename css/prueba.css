@@ -136,3 +136,24 @@ thead {
     padding-bottom: 100px;
     padding-right: 100px;
 }
+
+#maps {
+    margin: 50px 50px;
+}
+
+#maps h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #3e4095;
+}
+
+.card-body h5 {
+    color:#3e4095
+}
+
+.container-fluid h2 {
+    text-align: center;
+    color: #3e4095;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
