@@ -5,28 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" keywords="lubricentro">
     <link rel="shortcut icon" href="../assets/logo/rapidLubeService-logoAzul.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Rapid Lube Service - Home</title>
+    <link rel="stylesheet" href="/librerias/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/prueba.css">
+    <title>Rapid Lube Service</title>
 </head>
 <body>
-    <div class="grid-layout"> 
-        <div class="caja c1"> 
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="productos-servicios.html">Productos / Servicios</a></li>
-                    <li><a href="precios.html">Precios</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-        </nav>
-    </div>
-        <div class="caja c2"> <img class="logo" src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service" width="100%"/> </div>
-        <img class="caja c3 " src="../assets/img/distribucionAuto.jpg" alt="Logo Rapid Lube Service" width="500px"/>
-        <h1 class="caja c4">Trabajamos con las mejores marcas para el cuidado de tu vehículo</h1>
-        <div class="caja c5"> 
-            <h2 >Formulario</h2>
+    <header>
+        <section id="header">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="productos-servicios.html">Productos / Servicios</a></li>
+                        <li><a href="precios.html">Precios</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>    
+    </header>
+    <section id="logo">
+            <img class="logo" src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service" width="100%"/>
+    </section>
+    <section id="slider">
+        <div class="container-prueba">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/img/slider-distribucion.png" class="d-block w-100" alt="distribucion auto">
+                </div>
+                <div class="carousel-item">
+                <img src="/assets/img/slider-filtros.png" class="d-block w-100" alt="filtros auto">
+                </div>
+                <div class="carousel-item">
+                <img src="/assets/img/slider-frenos.png" class="d-block w-100" alt="freno auto">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--<img class="distribucion" src="/assets/img/distribucion-auto.jpg" alt="distribucionAuto" width="50%">-->
+        </div>
+    </section>
+    <section id="marcas">
+        <div class="container-prueba">
+            <h1 class="container-prueba">Trabajamos con las mejores marcas para el cuidado de tu Vehículo</h1>
+            <img class="container-prueba" src="/assets/img/logo-castrol.png" class="rounded float-start" alt="Logo Castrol" width="15%">
+            <img class="container-prueba" src="/assets/img/logo-liquimoly.png" class="rounded float-start" alt="Logo Castrol" width="15%">
+            <img class="container-prueba" src="/assets/img/logo-mobil.png" class="rounded float-start" alt="Logo Castrol" width="15%">
+            <img class="container-prueba" src="/assets/img/logo-motul.png" class="rounded float-start" alt="Logo Castrol" width="15%">
+            <img class="container-prueba" src="/assets/img/logo-petronas.png" class="rounded float-start" alt="Logo Castrol" width="15%">
+        </div>
+    </section> 
+    <section id="form">
+    <div class="container-prueba">
+        <h2 class="container-prueba">Formulario de Contacto</h2>
+        <h4 class="container-prueba">Completar el formulario para obtener un presupuesto personalizado <small>Corroborar que los datos estén correctos</small></h4>
+        <form class="container-prueba" action="#" method="post">
+            <fieldset class="mb-3">
+            <legend>Obtener presupuesto</legend>
+            <div class="mb-3">
+                <label for="Nombre y Apellido" class="form-label">Nombre y Apellido:</label>
+                <input type="text" class="form-control" name="Nombre y Apellido" placeholder="Nombre y Apellido">
+            </div>
+            <div class="mb-3">
+                <label for="Correo Electrónico" class="form-label">Correo Electrónico:</label>
+                <input type="text" class="form-control" name="Correo eletrónico" placeholder="Correo electrónico">
+            </div>
+            <div class="mb-3">
+                <label for="Número de Celular" class="form-label">Número de Celular:</label>
+                <input type="text" class="form-control" name="Número de Celular" placeholder="Correo electrónico">
+            </div>    
+            <label for="DataList" class="form-label">¿Qué servicio desea realizar?</label>
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Selecciona una opción">
+            <datalist id="datalistOptions">
+                <option value="Service Completo">
+                <option value="Frenos">
+                <option value="Suspensión">
+                <option value="Cambio de Aceite y Filtros">
+                <option value="Distribución">
+                <option value="Otro">
+            </datalist><br>
+            <h6>Seleccione la marca de su vehículo:</h6>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir una opción</option>
+                <option value="1">Crevrolet</option>
+                <option value="2">Ford</option>
+                <option value="3">Fiat</option>
+                <option value="4">Renault</option>
+                <option value="5">Honda</option>
+                <option value="6">Nissan</option>
+                <option value="7">Subaru</option>
+                </select><br>
+            <h6>Seleccione el tipo de combustible:</h6>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir una opción</option>
+                <option value="Nafta">Nafta</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Nafta y GNC">Nafta y GNC</option>
+            </select><br>
+            <div class="mb-3">
+                <label for="FormControlTextarea1" class="form-label">Agregar comentarios</label>
+                <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">
+                Enviar
+            </button>
+            <button type="reset" class="btn btn-danger">
+                Borrar campos
+            </button>
+        </fieldset>
+    </form><br><br>
+</div>
+</section>
+</div>
+</div>
+    <!--<section id="formulario">
+        <div class="container">
+            <h1>Solicitar Presupuesto</h1>
             <form class="form" action="procesar.php" method="post">
                 <fieldset>
                     <legend>Pedido de Presupuesto</legend>
@@ -87,32 +196,17 @@
                         <input type="submit" value="Enviar">
                         <input type="reset" value="Borrar campos">
                         <input type="button" value="Sin acciones">
-                    </fieldset>
+                </fieldset>
             </form>
-        </div>  
-        <footer class="footer">
-            <p>Copyright &copy; RapidLubeService. Todos los derechos reservados 2022</p>
-        </footer> 
-    </div>
+        </div>
+    </section>-->
+    <section id="footer">
+        <div class="container-prueba">
+            <footer class="footer">
+                <p>Copyright &copy; RapidLubeService. Todos los derechos reservados 2022</p>
+            </footer>
+        </div>
+    </section>
+    <script src="../librerias/bootstrap/js/bootstrap.min.js"></script>
 </body>
-</html>   
-   
-   
-   
-    <!-- <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="productos-servicios.html">Productos / Servicios</a></li>
-                <li><a href="precios.html">Precios</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <img src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service" width="100%"/>
-    <img class="distribucion" src="../assets/img/distribucionAuto.jpg" alt="Logo Rapid Lube Service" width="500px"/>
-    <footer class="footer">
-        <p>Copyright &copy; RapidLubeService. Todos los derechos reservados 2022</p>
-    </footer> -->
+</html>

@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 30px;
     animation-duration: 5s;
     animation-name: aparecer;
     animation-iteration-count:unset;
@@ -47,7 +47,7 @@ nav ul {
 .container {
     max-width: 1400px;
     margin: 0;
-    padding: 0;;
+    padding: 0;
 }
 
 header {
@@ -101,7 +101,7 @@ thead {
     color: #fcb32f
 }
 
-#cards {
+#card {
     margin:auto;
     padding: 10px 100px 100px 100px;
 }
@@ -113,7 +113,6 @@ thead {
 
 .container-fluid {
     margin: 0;
-    padding: 50px 50px;
 }
 
 #slider {
@@ -126,10 +125,9 @@ thead {
     padding-left: auto;
 }
 
-#marcas {;
+#marcas {
     text-align: center;
 }
-
 
 #form {
     margin: auto;
