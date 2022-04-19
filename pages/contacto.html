@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="/css/prueba.css">
     <title>Radip Lube Service - Contacto</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -22,7 +24,10 @@
             </ul>
         </nav>
     </header>
-    <img src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service" width="100%"/>
+    <section id="logo">
+        <img class="logo" src="../assets/logo/rapidLubeService-banerAzul.png" alt="Logo Rapid Lube Service"
+            width="100%" />
+    </section>
     <div class="container-fluid">
         <div class="container-fluid">
         <h2>Formulario de Contacto</h2>
@@ -43,7 +48,7 @@
                 <input type="text" class="form-control" name="Número de Celular" placeholder="Correo electrónico">
             </div>    
             <label for="DataList" class="form-label">¿Qué servicio desea realizar?</label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Selecciona una opción">
+            <input class="mb-3 form-control" list="datalistOptions" id="exampleDataList" placeholder="Selecciona una opción">
             <datalist id="datalistOptions">
                 <option value="Service Completo">
                 <option value="Frenos">
@@ -51,9 +56,9 @@
                 <option value="Cambio de Aceite y Filtros">
                 <option value="Distribución">
                 <option value="Otro">
-            </datalist><br>
+            </datalist>
             <h6>Seleccione la marca de su vehículo:</h6>
-            <select class="form-select" aria-label="Default select example">
+            <select class="mb-3 form-select" aria-label="Default select example">
                 <option selected>Elegir una opción</option>
                 <option value="1">Crevrolet</option>
                 <option value="2">Ford</option>
@@ -62,26 +67,26 @@
                 <option value="5">Honda</option>
                 <option value="6">Nissan</option>
                 <option value="7">Subaru</option>
-                </select><br>
+                </select>
             <h6>Seleccione el tipo de combustible:</h6>
-            <select class="form-select" aria-label="Default select example">
+            <select class="mb-3 form-select" aria-label="Default select example">
                 <option selected>Elegir una opción</option>
                 <option value="Nafta">Nafta</option>
                 <option value="Diesel">Diesel</option>
                 <option value="Nafta y GNC">Nafta y GNC</option>
-            </select><br>
+            </select>
             <div class="mb-3">
                 <label for="FormControlTextarea1" class="form-label">Agregar comentarios</label>
-                <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                <textarea class="mb-3 form-control" id="FormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-success">
+            <button type="submit" class="mb-3 btn btn-success">
                 Enviar
             </button>
-            <button type="reset" class="btn btn-danger">
-                Borrar campos
+            <button type="reset" class="mb-3 btn btn-danger">
+                Borrar
             </button>
         </fieldset>
-    </form><br><br>
+    </form>
 </div>
 </div>
 </div>
@@ -90,4 +95,5 @@
     </footer>
     <script src="../librerias/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>

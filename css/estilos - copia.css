@@ -12,7 +12,51 @@ body {
     margin: 0;
     margin-bottom: 40px;
 }
+/*Index*/
 
+/* .footer {
+    margin-top: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #3e4095;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+.navbar ul li a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navbar ul li a:hover {
+    background-color: #fcb32f;
+    color: #3e4095;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3e4095;
+} */
+
+/* Index Responsive */
+/*@media  and (max-width: 600px) {
+    .caja {
+        position:relative;
+    }
+}*/
 .grid-layout {
     display: grid;
     background-image: linear-gradient(#3e4095,#fcb32f);
@@ -26,16 +70,13 @@ body {
     "h2 form"
     "footer";
 }
-
 .caja {
     text-align: center;
 }
-
 .navbar {
     position: absolute;
     width: 100%;
 }
-
 .navbar ul li a {
     display: inline-block;
     padding: 14px 16px;
@@ -46,12 +87,10 @@ body {
     font-size: 15px;
     cursor: pointer;
 }
-
 .navbar ul li a:hover {
     background-color: #fcb32f;
     color: #3e4095;
 }
-
 .navbar ul {
     display: flex;
     list-style-type: none;
@@ -60,12 +99,10 @@ body {
     overflow: hidden;
     background-color: #3e4095;
 }
-
 .navbar {
     grid-area: navbar;
     grid-column: 1 / span 2;
 }
-
 .logo {
     grid-area: logo;
     grid-column: 1 / span 2;
@@ -77,12 +114,10 @@ body {
     margin: 0 auto;
     grid-row: 3;
 }
-
 .slider {
     grid-area: slider;
     grid-column: 1/ span 2;
 }
-
 .c4 {
     grid-column: 1 / span 2;
     grid-row: 4;
@@ -100,10 +135,10 @@ body {
     width: 100%;
     padding: 10px;
 }
-
 h5 {
     grid-area: 4;
 }
+
 
 .footer {
     grid-area: footer;
@@ -121,13 +156,13 @@ h5 {
     margin-top: 15px;
 }
 
+
 h1 {
     font-size: 25px;
     animation-duration: 5s;
     animation-name: aparecer;
     animation-iteration-count:unset;
 }
-
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -136,6 +171,24 @@ h1 {
         opacity: 1;
     }
 }
+
+
+
+
+
+
+
+
+/*.distribucion {
+    width: 70%;
+    border: solid 5px;
+    border-color: #3e4095;
+    display: block;
+    margin: 0px auto;
+}
+
+
+Productos-servicios*/
 
 .servicios {
     width: 100%;
@@ -150,6 +203,17 @@ h1 {
     font-weight: bold;
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .container-pys {
     display: grid;
@@ -168,21 +232,20 @@ h1 {
     background-color: #3e4095;
     color: #fcb32f;
 }
-
 .container-imagenes {
     display: flex;
     justify-content: center;
 }
-
 .frenosAuto img{
     width: 200px;
     height: 200px;
 }
-
 .distribucionAuto img{
     width: 200px;
     height: 200px;
 }
+
+/*Precios - Tabla*/
 
 table {
     width: 1000px;
@@ -199,3 +262,6 @@ th,td {
     border: solid 1px black;
     padding: 5px;
 }
+
+
+
