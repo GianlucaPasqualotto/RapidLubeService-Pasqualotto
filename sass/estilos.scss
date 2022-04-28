@@ -1,3 +1,8 @@
 @import "colores";
 @import "footer";
 @import "header";
+
+@mixin container-prueba () {
+    margin: auto;
+    padding-left: auto;
+}
